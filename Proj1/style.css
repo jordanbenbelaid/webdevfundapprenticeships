@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+h4 {
+    color: hotpink; 
+}
+h5 {
+    color: green;
+}
+p{
+    color: aquamarine;
+}
+
+ul{
+    border: solid 5px white;
+    font-style: italic;
+}
+
+/* id selector */
+#heading5{
+    color: greenyellow;
+}
+
+/* class selector */
+.headingtext{
+    color: red;
+}

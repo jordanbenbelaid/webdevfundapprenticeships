@@ -1,6 +1,9 @@
 body{
-    background-color: black;
+    /* background-color: black; */
     color: aliceblue;
+    font-family: "Gravitas One", serif;
+    background-image: url("images/dog.jpg");
+    background-size: 100% 100%;
 }
 h4 {
     color: hotpink; 

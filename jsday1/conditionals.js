@@ -41,4 +41,25 @@ switch (colour.toLowerCase()) {
 
 alert(message);
 
+
+//This is the above code converted into a function
+
+function chooseColour(colour){
+  let message;
+  switch (colour.toLowerCase()) {
+    case "red":
+      return message = "Red is a danger colour";
+    case "blue":
+      return message = "Blue is a sky colour";
+    case "green":
+      return message = "Green is a nature colour";
+    default:
+      return message = colour + " is a nice colour!";
+  }
+  }
+  
+  
+  let userColour = prompt("What is your favourite colour?");
+  alert(chooseColour(userColour))
+
 //while
